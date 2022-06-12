@@ -1,9 +1,12 @@
-function App() {
+import PostCreate from "./PostCreate";
+
+const App = () => {
   return (
     <div>
-      <h1>Blog App</h1>
+      <h1>Create Post</h1>
+      <PostCreate />
     </div>
   );
-}
+};
 
 export default App;
