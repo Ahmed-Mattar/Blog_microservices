@@ -19,16 +19,16 @@ const PostCreate = () => {
       <h1>Create Post</h1>
       <form onSubmit={onSubmit}>
         <div className="form-group mb-2">
-          <label for="title">Title</label>
+          <label htmlFor="title">Title</label>
           <input
             value={title}
             onChange={(e) => setTitle(e.target.value)}
             type="text"
-            class="form-control"
+            className="form-control"
             id="title"
           />
         </div>
-        <button type="submit" class="btn btn-primary">
+        <button type="submit" className="btn btn-primary">
           Submit
         </button>
       </form>
