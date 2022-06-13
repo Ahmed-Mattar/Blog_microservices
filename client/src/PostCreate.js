@@ -15,8 +15,7 @@ const PostCreate = () => {
   };
 
   return (
-    <div className="container">
-      <h1>Create Post</h1>
+    <div>
       <form onSubmit={onSubmit}>
         <div className="form-group mb-2">
           <label htmlFor="title">Title</label>
